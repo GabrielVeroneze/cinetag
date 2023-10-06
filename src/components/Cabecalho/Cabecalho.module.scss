@@ -1,0 +1,15 @@
+@use "src/styles/sass/variaveis" as *;
+
+.cabecalho {
+    align-items: center;
+    background-color: $preto;
+    display: flex;
+    height: 88px;
+    justify-content: space-between;
+    padding: 0 18.75vw;
+
+    .navegacao {
+        display: flex;
+        gap: 5rem;
+    }
+}
