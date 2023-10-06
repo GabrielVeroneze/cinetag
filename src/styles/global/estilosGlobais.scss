@@ -8,3 +8,8 @@ body {
     background-color: $branco;
     font-family: $fonte-principal;
 }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
