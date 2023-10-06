@@ -1,0 +1,15 @@
+@use "src/styles/sass/variaveis" as *;
+
+.rodape {
+    align-items: center;
+    background-color: $preto;
+    display: flex;
+    height: 88px;
+    justify-content: center;
+
+    .texto {
+        color: $cinza-claro;
+        font-size: 1.125rem;
+        line-height: normal;
+    }
+}
