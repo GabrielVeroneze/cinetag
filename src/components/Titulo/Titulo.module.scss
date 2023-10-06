@@ -1,0 +1,10 @@
+@use "src/styles/sass/variaveis" as *;
+
+.titulo {
+    color: $preto;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: normal;
+    padding: 2rem 0;
+    text-align: center;
+}
