@@ -1,7 +1,7 @@
 import iconeFavoritar from "./favoritar.svg"
 import styles from "./Card.module.scss"
 
-const Card = ({ id, titulo, capa}) => {
+const Cards = ({ id, titulo, capa}) => {
     return (
         <div className={styles.card}>
             <img
@@ -21,4 +21,4 @@ const Card = ({ id, titulo, capa}) => {
     )
 }
 
-export default Card
+export default Cards
