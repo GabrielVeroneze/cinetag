@@ -1,13 +1,6 @@
-.principal {
+.grid {
     display: flex;
-    flex-direction: column;
-    gap: 2.375rem;
-    padding: 2.5rem 18.75vw;
-
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        justify-content: space-around;
-    }
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
 }
