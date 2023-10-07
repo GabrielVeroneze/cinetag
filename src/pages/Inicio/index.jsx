@@ -1,8 +1,8 @@
 import Banner from "components/Banner"
-import Card from "components/Cards"
+import Cards from "components/Cards"
+import CardsContainer from "components/CardsContainer"
 import Titulo from "components/Titulo"
 import videos from "json/db.json"
-import styles from "./Inicio.module.scss"
 
 const Inicio = () => {
     return (
@@ -11,11 +11,11 @@ const Inicio = () => {
             <Titulo>
                 <h1>Um lugar para guardar seus vídeos e filmes!</h1>
             </Titulo>
-            <section className={styles.lista}>
+            <CardsContainer>
                 {videos.map(video => (
-                    <Card key={video.id} {...video} />
+                    <Cards key={video.id} {...video} />
                 ))}
-            </section>
+            </CardsContainer>
         </>
     )
 }
