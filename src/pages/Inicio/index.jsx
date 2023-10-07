@@ -11,7 +11,7 @@ const Inicio = () => {
             <Titulo>
                 <h1>Um lugar para guardar seus vídeos e filmes!</h1>
             </Titulo>
-            <section className={styles.grid}>
+            <section className={styles.lista}>
                 {videos.map(video => (
                     <Card key={video.id} {...video} />
                 ))}
