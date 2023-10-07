@@ -13,7 +13,7 @@ const Cabecalho = () => {
                 <MenuLink url="/">
                     Home
                 </MenuLink>
-                <MenuLink url="/Favoritos">
+                <MenuLink url="/favoritos">
                     Favoritos
                 </MenuLink>
             </nav>
