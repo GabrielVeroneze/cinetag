@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Inicio from "pages/Inicio"
 import Favoritos from "pages/Favoritos"
 import Layout from "components/Layout"
-import FavoritosProvider from "contexts/Favoritos"
+import { FavoritosProvider } from "contexts/Favoritos"
 
 const AppRoutes = () => {
     return (
