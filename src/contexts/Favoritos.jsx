@@ -1,16 +1,34 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 export const FavoritosContext = createContext()
 FavoritosContext.displayName = "Favoritos"
 
 export const FavoritosProvider = ({ children }) => {
-    const [favorito, setFavorito] = useState([])
+    const [favoritos, setFavoritos] = useState([])
 
     return (
-        <FavoritosContext.Provider value={{ favorito, setFavorito }}>
+        <FavoritosContext.Provider value={{ favoritos, setFavoritos }}>
             {children}
         </FavoritosContext.Provider>
     )
 }
 
-export default FavoritosProvider
+export const useFavoritoContext = () => {
+    const { favoritos, setFavoritos } = useContext(FavoritosContext)
+
+    const adicionarFavorito = (novoFavorito) => {
+        const favoritoRepetido = favoritos.some(favorito => favorito.id === novoFavorito.id)
+
+        if(!favoritoRepetido) {
+            setFavoritos([
+                ...favoritos,
+                novoFavorito
+            ])
+        }
+    }
+
+    return {
+        favoritos,
+        adicionarFavorito
+    }
+}
