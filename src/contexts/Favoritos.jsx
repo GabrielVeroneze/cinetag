@@ -24,7 +24,10 @@ export const useFavoritoContext = () => {
                 ...favoritos,
                 novoFavorito
             ])
+            return
         }
+
+        setFavoritos(favoritos.filter(favorito => favorito.id !== novoFavorito.id))
     }
 
     return {
