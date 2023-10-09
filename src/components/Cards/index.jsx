@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { useFavoritoContext } from "contexts/Favoritos"
 import iconeFavoritar from "./favoritar.svg"
 import iconeFavoritarAtivo from "./favoritar-ativo.svg"
@@ -11,11 +12,13 @@ const Cards = ({ id, titulo, capa }) => {
 
     return (
         <div className={styles.card}>
-            <img
-                className={styles.capa}
-                src={capa}
-                alt={titulo}
-            />
+            <Link to={`/${id}`}>
+                <img
+                    className={styles.capa}
+                    src={capa}
+                    alt={titulo}
+                />
+            </Link>
             <div className={styles.detalhes}>
                 <h2 className={styles.titulo}>{titulo}</h2>
                 <img
