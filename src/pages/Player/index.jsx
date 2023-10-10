@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import NaoEncontrada from "pages/NaoEncontrada"
 import Banner from "components/Banner"
 import Titulo from "components/Titulo"
 import videos from "json/db.json"
@@ -8,6 +9,10 @@ const Player = () => {
     const { id } = useParams()
 
     const video = videos.find(video => video.id === Number(id))
+
+    if (!video) {
+        return <NaoEncontrada />
+    }
 
     return (
         <>
