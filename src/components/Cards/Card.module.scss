@@ -3,6 +3,7 @@
 .card {
     background-color: $cinza-medio;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: max-content;
     width: 282px;
     
     .capa {

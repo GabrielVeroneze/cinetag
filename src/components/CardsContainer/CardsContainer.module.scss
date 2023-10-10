@@ -3,4 +3,5 @@
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: space-around;
+    min-height: calc(100vh - 562px - 7.5rem);
 }
