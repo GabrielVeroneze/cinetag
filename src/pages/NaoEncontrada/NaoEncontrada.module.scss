@@ -1,0 +1,25 @@
+@use "src/styles/sass/variaveis" as *;
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: calc(100vh - (88px * 2) - 2.5rem);
+    justify-content: center;
+    text-align: center;
+
+    .titulo, .texto {
+        color: $preto;
+    }
+
+    .titulo {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .texto {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
