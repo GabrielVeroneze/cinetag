@@ -10,16 +10,17 @@ const AppRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route 
+                <Route
+                    path="/"
                     element={
                         <FavoritosProvider>
                             <Layout />
                         </FavoritosProvider>
                     }
                 >
-                    <Route path="/" element={<Inicio />} />
-                    <Route path="/favoritos" element={<Favoritos />} />
-                    <Route path="/:id" element={<Player />}/>
+                    <Route index element={<Inicio />} />
+                    <Route path="favoritos" element={<Favoritos />} />
+                    <Route path=":id" element={<Player />}/>
                     <Route path="*" element={<NaoEncontrada />} />
                 </Route>
             </Routes>
