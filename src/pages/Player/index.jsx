@@ -21,7 +21,7 @@ const Player = () => {
             <Titulo>
                 <h1>Player</h1>
             </Titulo>
-            <section>
+            <section className={styles.player}>
                 <div className={styles.container}>
                     <iframe
                         className={styles.video}
