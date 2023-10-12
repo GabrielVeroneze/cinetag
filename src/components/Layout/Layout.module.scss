@@ -18,3 +18,11 @@
         }
     }
 }
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .container {
+        > * {
+            padding: 0 1.5rem;
+        }
+    }
+}

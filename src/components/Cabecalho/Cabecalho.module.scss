@@ -23,3 +23,12 @@
         }
     }
 }
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 2.5rem;
+        height: 150px;
+        justify-content: center;
+    }
+}

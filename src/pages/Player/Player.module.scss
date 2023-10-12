@@ -1,13 +1,31 @@
-.container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
-    width: 100%;
+@use "src/styles/sass/variaveis" as *;
 
-    .video {
-        height: 100%;
-        inset: 0;
-        position: absolute;
+.player {
+    min-height: calc(100vh - 562px - 7.5rem);
+
+    .container {
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
         width: 100%;
+    
+        .video {
+            height: 100%;
+            inset: 0;
+            position: absolute;
+            width: 100%;
+        }
     }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .player {
+        min-height: calc(100vh - 455px - 7.5rem);
+    }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .player {
+        min-height: calc(100vh - 500px - 7.5rem);
+    }    
 }

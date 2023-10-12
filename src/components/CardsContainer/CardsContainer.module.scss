@@ -13,3 +13,9 @@
         min-height: calc(100vh - 455px - 7.5rem);
     }
 }
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .container {
+        min-height: calc(100vh - 500px - 7.5rem);
+    }    
+}
