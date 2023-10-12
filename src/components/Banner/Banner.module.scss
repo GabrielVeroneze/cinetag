@@ -1,7 +1,15 @@
+@use "src/styles/sass/variaveis" as *;
+
 .capa {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 347px;
     width: 100%;
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .capa {
+        height: 240px;
+    }
 }

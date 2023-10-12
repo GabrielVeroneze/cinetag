@@ -13,3 +13,13 @@
         gap: 5rem;
     }
 }
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .cabecalho {
+        padding: 0 2.5rem;
+
+        .navegacao {
+            gap: 2rem;
+        }
+    }
+}

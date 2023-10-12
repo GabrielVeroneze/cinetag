@@ -8,3 +8,10 @@
     padding: 2rem 0;
     text-align: center;
 }
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .titulo {
+        align-self: center;
+        max-width: 554px;
+    }
+}
