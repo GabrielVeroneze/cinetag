@@ -1,17 +1,24 @@
 <p align="center"> <img src="https://github.com/GabrielVeroneze/space-app/assets/95183901/cb713a42-33f4-41cf-83d5-9df0ffad05c6" style="border-radius: 20px"> </p>
-<p>Projeto desenvolvido durante o curso "React: estilize componentes com Styled Components e manipule arquivos estáticos" da Alura.</p>
+<p>Projeto desenvolvido durante o curso "React: praticando React com Js" da Alura.</p>
 
 <hr>
 
 ## Índice
 
 - [Descrição](#descricao)
-- [Funcionalidades e Recursos](#toolbox-funcionalidades-e-recursos)
-   - [Página Inícial](#página-inícial)
+- [Funcionalidades e Recursos](#rocket-funcionalidades-e-recursos)
+   - [Páginas Principais](#páginas-principais)
+      - [Home](#home)
+      - [Favoritos](#favoritos)
+      - [Player](#player)
+      - [Não Encontrada](#não-encontrada)
    - [Recursos de Interatividade](#recursos-de-interatividade)
-   - [Filtros e Busca](#filtros-e-busca)
    - [Navegação](#navegação)
-   - [Recursos Utilizados](#recursos-utilizados)
+- [Desenvolvimento e Implementação](#toolbox-desenvolvimento-e-implementação)
+   - [Estilização e Componentes](#estilização-e-componentes)
+   - [Roteamento](#roteamento)
+   - [Hooks e Contextos](#hooks-e-contextos)
+   - [Consumo de API](#consumo-de-api)
    - [Responsividade](#responsividade)
 - [Ferramentas utilizadas](#computer-ferramentas-utilizadas)
 - [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
@@ -19,9 +26,11 @@
 - [Demonstração Visual](#demonstração-visual)
 
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/space-app/assets/95183901/900fd7ea-e4a4-41a7-ab64-c964bd2b5072"></h1>
-<p align="center">O Space App é um catálogo de imagens do espaço, nele os usuários podem explorar imagens do universo de forma eficiente e conveniente. A aplicação oferece diversas funcionalidades para tornar a experiência do usuário mais envolvente e informativa.</p>
+<p align="center">O CineTag é uma plataforma que permite aos usuários assistir a uma variedade de filmes e vídeos, projetada para proporcionar aos usuários uma experiência envolvente e interativa.</p>
 
-## :toolbox: Funcionalidades e Recursos
+<p align="center">Além disso, os usuários podem criar sua própria lista de "Favoritos" para acompanhar os conteúdos que mais apreciam. A interface é intuitiva e fácil de usar, permitindo uma navegação suave entre os conteúdos disponíveis.</p>
+
+## :rocket: Funcionalidades e Recursos
 
 ### Páginas Principais
 
@@ -46,6 +55,8 @@
 ### Navegação
 
 - `Links de Navegação`: Implementa uma navegação eficiente por meio de links de navegação no cabeçalho, que está presente em todas as páginas.
+
+## :toolbox: Desenvolvimento e Implementação
 
 ### Estilização e Componentes
 
@@ -84,17 +95,17 @@
 
 ## :computer: Ferramentas utilizadas
 
-| &nbsp; React | &nbsp; Vite | Styled Components | 
-| ------------ | ----------- | ----------------- |
-<img height="65px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="65px" src="https://github.com/GabrielVeroneze/space-app/assets/95183901/6810d45b-69d9-4282-a255-f4afa9c06f54"> | &nbsp; &nbsp; <img height="100px" src="https://github.com/GabrielVeroneze/feira-virtual/assets/95183901/17447cac-f50e-4b9a-91bf-52617c28a16f">
+| &nbsp; React | &nbsp; Vite | Context API | React Router | &nbsp; Sass |
+| ------------ | ----------- | ----------- | ------------ | ----------- |
+<img height="65px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="65px" src="https://github.com/GabrielVeroneze/space-app/assets/95183901/6810d45b-69d9-4282-a255-f4afa9c06f54"> | <img height="70px" src="https://github.com/GabrielVeroneze/feira-virtual/assets/95183901/63e05b70-6218-455f-b37d-f5d888cd3748"> | <img height="50px" src="https://github.com/GabrielVeroneze/react-blog/assets/95183901/e4274260-9415-408e-9757-5f2277c42a29"> | <img height="70px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
-[Baixar código fonte](https://github.com/GabrielVeroneze/space-app/archive/refs/heads/main.zip)
+[Baixar código fonte](https://github.com/GabrielVeroneze/cinetag/archive/refs/heads/main.zip)
 
 Também é possível clonar o repositório usando o seguinte comando:
 ```
-git clone https://github.com/GabrielVeroneze/space-app.git
+git clone https://github.com/GabrielVeroneze/cinetag.git
 ```
 
 ## :clipboard: Instruções
@@ -104,7 +115,7 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 2. Abra o terminal e navegue até a pasta raiz do projeto usando o comando `cd` no terminal. Por exemplo:
    ```
-   cd space-app
+   cd cinetag
    ```
 3. Antes de iniciar a aplicação, instale as dependências necessárias executando o seguinte comando:
    ```
@@ -119,7 +130,7 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
 <br>
 
-## Demonstração Visual
+## :camera: Demonstração Visual
 `Página Inícial`
 ![Space App](https://github.com/GabrielVeroneze/space-app/assets/95183901/d1c29281-76ef-4eb5-9e2c-cfd3cfbf166b)
 
