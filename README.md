@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://github.com/GabrielVeroneze/space-app/assets/95183901/cb713a42-33f4-41cf-83d5-9df0ffad05c6" style="border-radius: 20px"> </p>
+<p align="center"> <img src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/0148a528-6cf6-4712-a318-1e0dc4893019" style="border-radius: 20px"> </p>
 <p>Projeto desenvolvido durante o curso "React: praticando React com Js" da Alura.</p>
 
 <hr>
@@ -25,7 +25,7 @@
 - [Instruções](#clipboard-instruções)
 - [Demonstração Visual](#demonstração-visual)
 
-<h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/space-app/assets/95183901/900fd7ea-e4a4-41a7-ab64-c964bd2b5072"></h1>
+<h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/c7e3d3f1-9a13-4cfc-b671-e71adfd70dcf"></h1>
 <p align="center">O CineTag é uma plataforma que permite aos usuários assistir a uma variedade de filmes e vídeos, projetada para proporcionar aos usuários uma experiência envolvente e interativa.</p>
 
 <p align="center">Além disso, os usuários podem criar sua própria lista de "Favoritos" para acompanhar os conteúdos que mais apreciam. A interface é intuitiva e fácil de usar, permitindo uma navegação suave entre os conteúdos disponíveis.</p>
@@ -132,16 +132,16 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 ## :camera: Demonstração Visual
 `Página Inícial`
-![Space App](https://github.com/GabrielVeroneze/space-app/assets/95183901/d1c29281-76ef-4eb5-9e2c-cfd3cfbf166b)
+![CineTag]()
 
-`Filtrando por Tags`
-![Space App](https://github.com/GabrielVeroneze/space-app/assets/95183901/0aaeee2b-b55c-40b2-83ff-9297ec7e0366)
+``
+![CineTag]()
 
-`Filtrando por Título`
-![Space App](https://github.com/GabrielVeroneze/space-app/assets/95183901/444c6b1c-f953-40ac-8d83-bb5767236417)
+``
+![CineTag]()
 
-`Favoritando Imagem`
-![Space App](https://github.com/GabrielVeroneze/space-app/assets/95183901/ca4c360b-2c46-47a4-9c14-36c30acdc32a)
+``
+![CineTag]()
 
-`Ampliando Imagem`
-![Space App](https://github.com/GabrielVeroneze/space-app/assets/95183901/f3c1710d-9f9e-49a3-8490-3acc847f8497)
+``
+![CineTag]()
