@@ -28,26 +28,32 @@
 - #### Home:
    - `Listagem de Vídeos`: Os usuários podem explorar uma lista de filmes e vídeos disponíveis para visualização. Eles são apresentados em cards contendo sua imagem, título e um ícone de favoritar.
 
-   - `Favoritar`: Os usuários têm a capacidade de favoritar um filme ou vídeo clicando no ícone de coração de cada card.
-   
-   - `Visualização`: Ao clicar na imagem de um filme ou vídeo, os usuários são direcionados para a página de "Player" correspondente.
-
 - #### Favoritos:
    - `Listagem de Favoritos`: Nesta página, os usuários podem acessar rapidamente os filmes e vídeos que marcaram como favoritos. Os cards dos itens favoritados são exibidos nesta página.
 
 - #### Player:
-   - `Reprodução de Vídeo`: A página "Player" exibe o vídeo ou filme selecionado pelo usuário e permite a reprodução.
+   - `Visualização do Vídeo`: A página "Player" exibe o vídeo ou filme selecionado pelo usuário.
 
 - #### Não Encontrada:
    - `Aviso de Erro`: Quando um usuário tenta acessar uma rota que não existe na aplicação, a página 404 é exibida, fornecendo um aviso sobre o erro.
+
+### Recursos de Interatividade
+
+- `Favoritar Vídeo`: Os usuários têm a capacidade de favoritar um filme ou vídeo clicando no ícone de coração de cada card, adicionando ele na lista de "Favoritos".
+
+- `Reproduzir Vídeo`: Ao clicar na imagem de um filme ou vídeo, os usuários são direcionados para a página de "Player" correspondente, onde os filmes e vídeos podem ser reproduzidos.
+
+### Navegação
+
+- `Links de Navegação`: Implementa uma navegação eficiente por meio de links de navegação no cabeçalho, que está presente em todas as páginas.
 
 ### Estilização e Componentes
 
 - `Estilização`: O CineTag utiliza `Sass` e `CSS Modules` para estilizar seus componentes, proporcionando uma experiência visual atraente.
 
-### Navegação e Roteamento
+### Roteamento
 
-- `Rotas`: Utiliza o `React Router` para criar um sistema de navegação eficiente com várias páginas. Ele inclui rotas para a página inicial, a página de favoritos e páginas de players individuais.
+- `Rotas`: Utiliza o `React Router` para criar um sistema de navegação eficiente com várias páginas. Ele inclui rotas para a página "Home", "Favoritos" e páginas de "Players" individuais.
 
 - `Rotas Aninhadas`: As páginas "Home" e "Favoritos" são roteadas como filhas da página padrão, permitindo a reutilização da estrutura da página.
 
@@ -59,52 +65,21 @@
 
 - `Hooks do React`: A aplicação utiliza diversos hooks do React, como `useState`, `useEffect` e `useContext`, para gerenciar o estado e interações com os componentes.
 
-- `Hooks Customizados`: São criados hooks personalizados para gerenciar o contexto de favoritos e para buscar dados dos vídeos por meio da `Fetch API`.
+- `Hooks Customizados`: São criados hooks customizados para gerenciar o contexto de favoritos e para buscar dados dos vídeos por meio da `Fetch API`.
 
 - `Contextos`: Utiliza a `Context API` para criar contextos com o `createContext`. É criado o contexto de favoritos, permitindo que os elementos utilizem contextos com o `Provider` e `useContext`.
 
 ### Consumo de API
 
-API de Mock: A aplicação consome uma API de mock que fornece dados sobre os vídeos e filmes disponíveis.
+- `API de Mock`: A aplicação consome uma API de mock que fornece dados sobre os vídeos e filmes disponíveis.
 
-Hospedagem da API: A API de mock é hospedada no My JSON Server para que possa ser consumida pela aplicação.
+- `Hospedagem da API`: A API de mock é hospedada no `My JSON Server` para que possa ser consumida pela aplicação.
 
-FetchAPI: O CineTag consome a API de mock usando a Fetch API para recuperar os dados dos filmes e vídeos.
+- `FetchAPI`: A API é consumida usando a `Fetch API` para recuperar os dados dos filmes e vídeos.
 
 ### Responsividade
 
 - `Media Queries`: O projeto utiliza media queries para garantir que a aplicação seja responsiva em dispositivos móveis, tablets e desktops.
-
-
-
-### Recursos de Interatividade
-
-- `Favoritar Imagem`: Permite que o usuário marque suas imagens favoritas. Basta clicar no ícone de coração associado a essa imagem.
-
-- `Ampliar Imagem`: Utiliza um modal para expandir a imagem. Permitindo o usuário ver a imagem em sua totalidade e examinar os detalhes.
-
-### Filtros e Busca
-
-- `Filtragem por Título`: A aplicação permite aos usuários filtrar imagens com base em seus títulos. Basta usar o campo de entrada de pesquisa para encontrar imagens específicas por título.
-
-- `Filtragem por Tags`: Você também pode filtrar imagens por tags, como estrelas, galáxias, planetas e outros objetos celestes. Isso facilita a busca por imagens relacionadas a categorias específicas.
-
-### Navegação
-
-- `Barra Lateral`: A barra lateral oferece uma navegação fácil entre as páginas da aplicação (atualmente, apenas a página inicial está disponível). Isso torna a experiência do usuário mais intuitiva e permite futuras expansões do projeto.
-
-### Recursos Utilizados
-
-- `Componentes Estilizados`: O `Styled Components` é utilizado para estilizar componentes de forma eficaz, maximizando o uso de JavaScript para uma estilização dinâmica.
-
-- `Layouts Avançados`: A aplicação utiliza conceitos como `Flexbox` e `Grid` para layouts responsivos e avançados.
-
-- `Arquivos Estáticos`: A aplicação explora a manipulação de arquivos estáticos, incluindo imagens, fontes e arquivos JSON. 
-
-- `Modal Semântico`: O modal é criado utilizando componentes semânticos do HTML, como o elemento `<dialog>`, para fornecer uma visualização de imagens ampliada.
-
-- `Integração Dinâmica`: Integra os dados dos arquivos JSON com o estado do `React`, permitindo a exibição dinâmica de imagens e seus caminhos.
-
 
 
 ## :computer: Ferramentas utilizadas
