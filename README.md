@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/0148a528-6cf6-4712-a318-1e0dc4893019" style="border-radius: 20px"> </p>
+<p align="center"> <img height="250px" src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/0148a528-6cf6-4712-a318-1e0dc4893019" style="border-radius: 20px"> </p>
 <p>Projeto desenvolvido durante o curso "React: praticando React com Js" da Alura.</p>
 
 <hr>
@@ -8,10 +8,6 @@
 - [Descrição](#descricao)
 - [Funcionalidades e Recursos](#rocket-funcionalidades-e-recursos)
    - [Páginas Principais](#páginas-principais)
-      - [Home](#home)
-      - [Favoritos](#favoritos)
-      - [Player](#player)
-      - [Não Encontrada](#não-encontrada)
    - [Recursos de Interatividade](#recursos-de-interatividade)
    - [Navegação](#navegação)
 - [Desenvolvimento e Implementação](#toolbox-desenvolvimento-e-implementação)
@@ -25,7 +21,7 @@
 - [Instruções](#clipboard-instruções)
 - [Demonstração Visual](#demonstração-visual)
 
-<h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/c7e3d3f1-9a13-4cfc-b671-e71adfd70dcf"></h1>
+<h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/c3655089-5676-4536-8d00-9296165f26aa"></h1>
 <p align="center">O CineTag é uma plataforma que permite aos usuários assistir a uma variedade de filmes e vídeos, projetada para proporcionar aos usuários uma experiência envolvente e interativa.</p>
 
 <p align="center">Além disso, os usuários podem criar sua própria lista de "Favoritos" para acompanhar os conteúdos que mais apreciam. A interface é intuitiva e fácil de usar, permitindo uma navegação suave entre os conteúdos disponíveis.</p>
@@ -34,17 +30,13 @@
 
 ### Páginas Principais
 
-- #### Home:
-   - `Listagem de Vídeos`: Os usuários podem explorar uma lista de filmes e vídeos disponíveis para visualização. Eles são apresentados em cards contendo sua imagem, título e um ícone de favoritar.
+- `Home`: Os usuários podem explorar uma lista de filmes e vídeos disponíveis para visualização. Eles são apresentados em cards contendo sua imagem, título e um ícone de favoritar.
 
-- #### Favoritos:
-   - `Listagem de Favoritos`: Nesta página, os usuários podem acessar rapidamente os filmes e vídeos que marcaram como favoritos. Os cards dos itens favoritados são exibidos nesta página.
+- `Favoritos`: Nesta página, os usuários podem acessar rapidamente os filmes e vídeos que marcaram como favoritos. Os cards dos itens favoritados são exibidos nesta página.
 
-- #### Player:
-   - `Visualização do Vídeo`: A página "Player" exibe o vídeo ou filme selecionado pelo usuário.
+- `Player`: A página "Player" exibe o vídeo ou filme selecionado pelo usuário.
 
-- #### Não Encontrada:
-   - `Aviso de Erro`: Quando um usuário tenta acessar uma rota que não existe na aplicação, a página 404 é exibida, fornecendo um aviso sobre o erro.
+- `Não Encontrada`: Quando um usuário tenta acessar uma rota que não existe na aplicação, a página 404 é exibida, fornecendo um aviso sobre o erro.
 
 ### Recursos de Interatividade
 
