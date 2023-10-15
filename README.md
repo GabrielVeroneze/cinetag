@@ -89,7 +89,7 @@
 
 | &nbsp; React | &nbsp; Vite | Context API | React Router | &nbsp; Sass |
 | ------------ | ----------- | ----------- | ------------ | ----------- |
-<img height="65px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="65px" src="https://github.com/GabrielVeroneze/space-app/assets/95183901/6810d45b-69d9-4282-a255-f4afa9c06f54"> | <img height="70px" src="https://github.com/GabrielVeroneze/feira-virtual/assets/95183901/63e05b70-6218-455f-b37d-f5d888cd3748"> | <img height="50px" src="https://github.com/GabrielVeroneze/react-blog/assets/95183901/e4274260-9415-408e-9757-5f2277c42a29"> | <img height="70px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
+<img height="65px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="65px" src="https://github.com/GabrielVeroneze/space-app/assets/95183901/6810d45b-69d9-4282-a255-f4afa9c06f54"> | &nbsp; <img height="70px" src="https://github.com/GabrielVeroneze/feira-virtual/assets/95183901/63e05b70-6218-455f-b37d-f5d888cd3748"> | <img height="50px" src="https://github.com/GabrielVeroneze/react-blog/assets/95183901/e4274260-9415-408e-9757-5f2277c42a29"> | <img height="70px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
