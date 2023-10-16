@@ -124,16 +124,13 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 ## :camera: Demonstração Visual
 `Página Inícial`
-![CineTag]()
+![CineTag](https://github.com/GabrielVeroneze/cinetag/assets/95183901/a22034e7-731d-4a9c-b030-a3f86a86cbb1)
 
-``
-![CineTag]()
+`Favoritando Vídeo`
+![CineTag](https://github.com/GabrielVeroneze/cinetag/assets/95183901/624890be-9803-4608-a73a-b97a715b9894)
 
-``
-![CineTag]()
+`Reproduzindo Vídeo`
+![CineTag](https://github.com/GabrielVeroneze/cinetag/assets/95183901/b982086d-6fde-4cc8-9049-91f631f576b4)
 
-``
-![CineTag]()
-
-``
-![CineTag]()
+`Página Não Encontrada`
+![CineTag](https://github.com/GabrielVeroneze/cinetag/assets/95183901/63bb33eb-1d35-4495-a096-6f2a21bc9509)
