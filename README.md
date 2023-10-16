@@ -32,7 +32,7 @@
 
 - `Home`: Os usuários podem explorar uma lista de filmes e vídeos disponíveis para visualização. Eles são apresentados em cards contendo sua imagem, título e um ícone de favoritar.
 
-- `Favoritos`: Nesta página, os usuários podem acessar rapidamente os filmes e vídeos que marcaram como favoritos. Os cards dos itens favoritados são exibidos nesta página.
+- `Favoritos`: Nesta página, os usuários podem acessar rapidamente os filmes e vídeos que marcaram como favoritos. Os cards dos filmes e vídeos favoritados são exibidos nesta página.
 
 - `Player`: A página "Player" exibe o vídeo ou filme selecionado pelo usuário.
 
