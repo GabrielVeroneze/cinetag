@@ -19,7 +19,7 @@
 - [Ferramentas utilizadas](#computer-ferramentas-utilizadas)
 - [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
 - [Instruções](#clipboard-instruções)
-- [Demonstração Visual](#demonstração-visual)
+- [Demonstração Visual](#camera-demonstração-visual)
 
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/cinetag/assets/95183901/c3655089-5676-4536-8d00-9296165f26aa"></h1>
 <p align="center">O CineTag é uma plataforma que permite aos usuários assistir a uma variedade de filmes e vídeos, foi projetado para proporcionar aos usuários uma experiência envolvente e interativa.</p>
